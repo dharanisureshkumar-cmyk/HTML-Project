@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Input Form</title>
+</head>
+<body>
+    <h2>Enter Information</h2>
+    <!-- The form's action will load into the 'results_frame' of the parent window -->
+    <form action="submit_handler.html" method="POST" target="results_frame">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>

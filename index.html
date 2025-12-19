@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Frames and Form Example (Modern)</title>
+    <style>
+        body { font-family: sans-serif; }
+        .container { display: flex; height: 80vh; gap: 20px; }
+        iframe { flex: 1; border: 1px solid #ccc; padding: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Registration System</h1>
+    <div class="container">
+        <!-- The form will load here -->
+        <iframe src="form_page.html" name="form_frame" title="Input Form"></iframe>
+        <!-- Form results or a thank you message will load here -->
+        <iframe src="results_page.html" name="results_frame" title="Results Area"></iframe>
+    </div>
+</body>
+</html>
